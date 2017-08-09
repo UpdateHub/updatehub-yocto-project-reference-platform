@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote fetch="https://git.yoctoproject.org" name="yocto" sync-j="4"/>
+    <remote fetch="https://git.yoctoproject.org/git/" name="yocto" sync-j="4"/>
     <remote fetch="https://code.ossystems.com.br" name="ossystems" sync-j="4" review="code.ossystems.com.br"/>
     <remote fetch="http://git.openembedded.org" name="oe" sync-j="4"/>
     <remote fetch="https://github.com" name="github" sync-j="4"/>
