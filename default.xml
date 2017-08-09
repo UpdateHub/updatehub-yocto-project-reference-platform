@@ -15,7 +15,6 @@
     </project>
 	
     <project remote="github" revision="krogoth" name="UpdateHub/updatehub-yocto-project-reference-platform" path="sources/conf/repo"/>
-    <project remote="github" revision="master" name="UpdateHub/updatehub-yocto-project-reference-config" path="sources/conf/tools"/>
 
     <project remote="github" revision="master" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
     <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded" />
