@@ -16,22 +16,22 @@
 	
     <project remote="github" revision="krogoth" name="UpdateHub/updatehub-yocto-project-reference-platform" path="sources/conf/repo"/>
 
-    <project remote="github" revision="master" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
+    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
     <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded" />
     <project remote="github" revision="master" name="mem/oe-meta-go" path="sources/oe-meta-go"/>
 
 	
-    <project remote="github" revision="master" name="UpdateHub/meta-updatehub-qa" path="sources/meta-updatehub-qa"/>
+    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-qa" path="sources/meta-updatehub-qa"/>
 
     <project remote="oe" revision="1.30" name="bitbake" path="sources/bitbake"/>
 
     <!-- UpdateHub support for Freescale BSP -->
     <project remote="github" revision="krogoth" name="Freescale/meta-fsl-arm" path="sources/meta-fsl-arm"/>
     <project remote="github" revision="krogoth" name="Freescale/meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-    <project remote="github" revision="master"  name="UpdateHub/meta-updatehub-freescale" path="sources/meta-updatehub-freescale"/>
+    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-freescale" path="sources/meta-updatehub-freescale"/>
 
     <!-- UpdateHub support for Raspberry Pi BSP -->
     <project remote="yocto"  revision="krogoth" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
-    <project remote="github" revision="master"  name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
+    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
 
 </manifest>
