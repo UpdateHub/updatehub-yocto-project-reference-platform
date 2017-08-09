@@ -25,4 +25,10 @@
     <project remote="github" revision="master" name="UpdateHub/meta-updatehub-qa" path="sources/meta-updatehub-qa"/>
 
     <project remote="oe" revision="1.30" name="bitbake" path="sources/bitbake"/>
+
+    <!-- UpdateHub support for Freescale BSP -->
+    <project remote="github" revision="krogoth" name="Freescale/meta-fsl-arm" path="sources/meta-fsl-arm"/>
+    <project remote="github" revision="krogoth" name="Freescale/meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+    <project remote="github" revision="master"  name="UpdateHub/meta-updatehub-freescale" path="sources/meta-updatehub-freescale"/>
+
 </manifest>
