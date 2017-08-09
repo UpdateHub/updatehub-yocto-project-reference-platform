@@ -31,4 +31,8 @@
     <project remote="github" revision="krogoth" name="Freescale/meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
     <project remote="github" revision="master"  name="UpdateHub/meta-updatehub-freescale" path="sources/meta-updatehub-freescale"/>
 
+    <!-- UpdateHub support for Raspberry Pi BSP -->
+    <project remote="yocto"  revision="krogoth" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+    <project remote="github" revision="master"  name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
+
 </manifest>
