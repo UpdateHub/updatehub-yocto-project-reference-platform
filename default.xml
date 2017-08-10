@@ -8,30 +8,30 @@
 
     <default revision="invalidRevision"/>
 
-    <project remote="ossystems" revision="krogoth" name="meta-ossystems-base" path="sources/meta-ossystems-base" />
-    <project remote="oe" revision="krogoth" name="openembedded-core" path="sources/openembedded-core" />
-    <project remote="ossystems" revision="krogoth" name="ossystems-yocto-base-scripts" path="sources/base" >
+    <project remote="ossystems" revision="morty" name="meta-ossystems-base" path="sources/meta-ossystems-base" />
+    <project remote="oe" revision="morty" name="openembedded-core" path="sources/openembedded-core" />
+    <project remote="ossystems" revision="morty" name="ossystems-yocto-base-scripts" path="sources/base" >
         <copyfile dest="setup-environment" src="setup-environment"/>
     </project>
 	
-    <project remote="github" revision="krogoth" name="UpdateHub/updatehub-yocto-project-reference-platform" path="sources/conf/repo"/>
+    <project remote="github" revision="morty" name="UpdateHub/updatehub-yocto-project-reference-platform" path="sources/conf/repo"/>
 
-    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
-    <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded" />
+    <project remote="github" revision="morty" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
+    <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded" />
     <project remote="github" revision="master" name="mem/oe-meta-go" path="sources/oe-meta-go"/>
 
 	
-    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-qa" path="sources/meta-updatehub-qa"/>
+    <project remote="github" revision="morty" name="UpdateHub/meta-updatehub-qa" path="sources/meta-updatehub-qa"/>
 
-    <project remote="oe" revision="1.30" name="bitbake" path="sources/bitbake"/>
+    <project remote="oe" revision="1.32" name="bitbake" path="sources/bitbake"/>
 
     <!-- UpdateHub support for Freescale BSP -->
-    <project remote="github" revision="krogoth" name="Freescale/meta-fsl-arm" path="sources/meta-fsl-arm"/>
-    <project remote="github" revision="krogoth" name="Freescale/meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-freescale" path="sources/meta-updatehub-freescale"/>
+    <project remote="github" revision="morty" name="Freescale/meta-freescale" path="sources/meta-freescale"/>
+    <project remote="github" revision="morty" name="Freescale/meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+    <project remote="github" revision="morty" name="UpdateHub/meta-updatehub-freescale" path="sources/meta-updatehub-freescale"/>
 
     <!-- UpdateHub support for Raspberry Pi BSP -->
-    <project remote="yocto"  revision="krogoth" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
-    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
+    <project remote="yocto"  revision="morty" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+    <project remote="github" revision="morty" name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
 
 </manifest>
