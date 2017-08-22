@@ -32,4 +32,8 @@
     <project remote="yocto"  revision="master" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
     <project remote="github" revision="master" name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
 
+    <!-- UpdateHub support for Texas Instruments BSP -->
+    <project remote="yocto"  revision="master" name="meta-ti" path="sources/meta-ti"/>
+    <project remote="github" revision="master" name="UpdateHub/meta-updatehub-ti" path="sources/meta-updatehub-ti"/>
+
 </manifest>
