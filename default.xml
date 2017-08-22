@@ -34,4 +34,8 @@
     <project remote="yocto"  revision="krogoth" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
     <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
 
+    <!-- UpdateHub support for Texas Instruments BSP -->
+    <project remote="yocto"  revision="krogoth" name="meta-ti" path="sources/meta-ti"/>
+    <project remote="github" revision="krogoth" name="UpdateHub/meta-updatehub-ti" path="sources/meta-updatehub-ti"/>
+
 </manifest>
