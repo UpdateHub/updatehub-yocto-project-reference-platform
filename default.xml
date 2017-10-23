@@ -29,7 +29,7 @@
     <project remote="github" revision="rocko" name="UpdateHub/meta-updatehub-freescale" path="sources/meta-updatehub-freescale"/>
 
     <!-- UpdateHub support for Raspberry Pi BSP -->
-    <project remote="yocto"  revision="master" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+    <project remote="yocto"  revision="rocko" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
     <project remote="github" revision="rocko" name="UpdateHub/meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi"/>
 
     <!-- UpdateHub support for Texas Instruments BSP -->
