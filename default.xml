@@ -14,7 +14,7 @@
         <copyfile dest="setup-environment" src="setup-environment"/>
     </project>
 	
-    <project remote="github" revision="master" name="UpdateHub/updatehub-yocto-project-reference-platform" path="sources/conf/repo"/>
+    <project remote="github" revision="master" name="UpdateHub/updatehub-yocto-project-reference-platform" path="sources/platform"/>
 
     <project remote="github" revision="master" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
     <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded" />
