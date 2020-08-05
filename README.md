@@ -29,10 +29,10 @@ Setup the environment:
 $ source ./setup-environment build
 ```
 
-Build updatehub-image-minimal
+Build updatehub-image-base
 
 ``` shell
-$ bitbake updatehub-image-minimal
+$ bitbake updatehub-image-base
 ```
 
 ## Contributing
