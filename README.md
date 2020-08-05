@@ -16,7 +16,7 @@ Download the platform source:
 $ PATH=${PATH}:~/bin
 $ mkdir updatehub-platform
 $ cd updatehub-platform
-$ repo init -u https://github.com/UpdateHub/updatehub-yocto-project-reference-platform.git -b master
+$ repo init -u https://github.com/UpdateHub/updatehub-yocto-project-reference-platform.git -b dunfell
 $ repo sync
 
 ```
