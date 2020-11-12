@@ -6,10 +6,10 @@
   <remote fetch="https://github.com" name="github" sync-j="4"/>
 
   <!-- ### Yocto Project release used as default for all included layers and components ### -->
-  <default revision="master"/>
+  <default revision="gatesgarth"/>
 
   <!-- ### O.S. Systems Embedded Linux Core layers ### -->
-  <project remote="oe" revision="master" name="bitbake" path="sources/bitbake"/>
+  <project remote="oe" revision="1.48" name="bitbake" path="sources/bitbake"/>
   <project remote="oe" name="openembedded-core" path="sources/openembedded-core"/>
 
   <project remote="github" name="OSSystemsEmbeddedLinux/meta-ossystems-base" path="sources/meta-ossystems-base"/>
@@ -38,6 +38,6 @@
 
   <!-- UpdateHub support for Texas Instruments BSP -->
   <project remote="yocto"  name="meta-arm" path="sources/meta-arm"/>
-  <project remote="yocto"  name="meta-ti" path="sources/meta-ti"/>
+  <project remote="yocto"  revision="master" name="meta-ti" path="sources/meta-ti"/>
   <project remote="github" name="UpdateHub/meta-updatehub-ti" path="sources/meta-updatehub-ti"/>
 </manifest>
