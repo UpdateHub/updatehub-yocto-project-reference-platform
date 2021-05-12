@@ -6,7 +6,7 @@
   <remote fetch="https://github.com" name="github" sync-j="4"/>
 
   <!-- ### Yocto Project release used as default for all included layers and components ### -->
-  <default revision="master"/>
+  <default revision="hardknott"/>
 
   <!-- ### O.S. Systems Embedded Linux Core layers ### -->
   <project remote="oe" revision="master" name="bitbake" path="sources/bitbake"/>
