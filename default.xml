@@ -23,7 +23,6 @@
   <project remote="github" name="UpdateHub/meta-updatehub" path="sources/meta-updatehub"/>
   <project remote="github" name="UpdateHub/meta-updatehub-qa" path="sources/meta-updatehub-qa"/>
   <project remote="github" name="UpdateHub/updatehub-yocto-project-reference-platform" path="sources/platform"/>
-  <project remote="github" name="rust-embedded/meta-rust-bin" path="sources/meta-rust-bin"/>
 
   <!-- UpdateHub support for Freescale BSP -->
   <project remote="github" name="Freescale/meta-freescale" path="sources/meta-freescale"/>
